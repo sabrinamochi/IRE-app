@@ -24,6 +24,7 @@
             {% block pubdate %}{% endblock %}
         </div>
     </header>
+    {% block barchart %} {% endblock %}
     {% block content %}{% endblock %}
     {% block scripts %}{% endblock %}
     <script src="scripts/main.js"></script>
