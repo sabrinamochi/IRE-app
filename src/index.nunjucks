@@ -1,11 +1,13 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
-
-{% block content %}
+{% block headline %} Headline {% endblock %}
+{% block byline %} by Szu Yu Chen {% endblock %}
+{% block pubdate %} <time datetime='2020-05-21' pubdate>05/21/2020</tim> {% endblock %}
+{# {% block content %}
 <div class="main-container">
   <div class="yeogurt-info">
-    <h1>Welcome to Yeogurt!</h1>
+    <h1>Hello, World!</h1>
     <p>
       Take a look at the {{link.content({
         href: 'https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---',
@@ -18,4 +20,4 @@
   </div>
 </div>
 <code class="version">v3.1.2</code>
-{% endblock %}
+{% endblock %} #}
